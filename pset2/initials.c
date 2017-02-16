@@ -2,8 +2,6 @@
 #include <string.h>
 #include <ctype.h>
 
-int firstLetterIndex(char string[255], int index);
-
 int main (void) {
 	char name[255];
 	scanf("%[^\n]%*c", name);
